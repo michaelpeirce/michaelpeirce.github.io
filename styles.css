@@ -1,0 +1,505 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+*{margin: 0;
+  padding:0;
+}
+
+/*reset sheet end*/
+
+body {font-family: monospace;
+background-color: lightskyblue;
+text-align: center;
+overflow: scroll;
+overflow-x: hidden;
+}
+
+h1 {
+color: ivory;
+
+}
+h2 {
+color: ivory;
+
+}
+nav{
+color: ivory;
+
+}
+
+
+
+.img-info {
+width: 100%;
+margin-top: 80px; 
+
+}
+
+.contact-info {
+  width: 100%;
+  line-height: 24px; 
+  font-size: 16px;
+  margin-top: 80px;
+
+}
+
+.contact-info p {
+
+  width: 100%;
+  line-height: 24px; 
+  font-size: 16px;
+  margin-top: 80px;
+
+}
+.about-me{
+width: 100%;
+margin-top: 80px;
+
+}
+
+.img-info h3 {
+padding: 30px 30px 20px;
+line-height: 44px; 
+font-size: 50px;
+
+}
+
+.img-info header {
+position: relative;
+top: -10px;
+font-size: 30px; 
+
+
+}
+.img-info p {
+  padding: 0px 30px 20px;
+  line-height: 24px; 
+  font-size: 16px;
+  
+}
+
+.img-info h5 {
+
+  margin-bottom: 20px; 
+}
+nav{
+position: relative;
+top: -15px; 
+
+
+}
+ul li {
+  padding: 20px;
+  display: inline;
+}
+
+.TopofWebsite{ 
+background-color:black;
+position: fixed; 
+right: 0px; 
+width: 100%;
+top: 0px; 
+z-index: 2;
+}
+
+
+img {
+
+  position: relative;
+  top: -30px; 
+  left: -115px;
+width: 30px; 
+height: 30px; 
+border: 2px solid #000;
+border-radius: 4px;
+
+}
+
+.recent-projects {
+
+  width: 100%;
+  margin-top: 0px; 
+}
+.recent-projects h4 {
+  padding: 10px 30px 20px;
+  line-height: 44px; 
+  font-size: 30px;
+
+}
+
+.img-info h4 {
+  line-height: 44px; 
+  font-size: 30px;
+  padding: 30px 30px 20px;
+}
+
+.img-info h5 {
+  
+  font-size: 30px;
+}
+.recent-projects img {
+position: relative;
+top: 5px; 
+left: 0px; 
+width: 200px; 
+height: 200px; 
+border: 2px solid #000;
+border-radius: 4px;
+  
+}
+
+
+
+nav a { 
+  color: ivory;
+  text-decoration: none;
+  text-transform: uppercase; 
+}
+
+nav .current  {
+   
+  color: red;
+
+}
+.recent-projects p {
+
+  padding: 0px 30px 20px;
+  line-height: 24px; 
+  font-size: 16px;
+
+}
+.fig-visaexpress {
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  z-index: 1;
+  
+}
+
+.fig-squares {
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+  
+
+}
+
+.fig-chair {
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.fig-visaexpress figcaption {
+
+  position: relative;
+  font-size: 25px; 
+  top: 15px; 
+}
+
+.fig-squares figcaption {
+
+  position: relative;
+  font-size: 25px; 
+  top: 15px; 
+
+}
+
+.fig-chair figcaption {
+
+  position: relative;
+  font-size: 25px; 
+  top: 15px; 
+  margin-bottom: 30px;
+}
+
+.fig-visaexpress p {
+
+margin-top: 20px; 
+}
+
+.fig-squares p{
+
+  margin-top: 20px; 
+}
+
+.fig-chair p {
+
+  margin-top: 20px; 
+}
+
+.portfolio-projects{
+  margin-top: 20px;
+
+
+}
+
+.portfolio-projects p {
+
+  
+  line-height: 10px; 
+  font-size: 8px;
+  margin-left: 150px;
+  margin-right: 50px; 
+  margin-top: -110px; 
+}
+
+.contact-info p {
+
+  line-height: 30px; 
+  font-size: 18px;
+  margin-top: 40px; 
+
+}
+@media only screen and (min-width: 768px) {
+  
+  
+  
+}
+
+@media only screen and (max-width: 360px)  {
+
+
+
+  ul li {
+    padding: 10px;
+    display: inline;
+  }
+
+  .contact-info p {
+   position: relative;
+   left: 35px;
+    line-height: 30px; 
+    font-size: 10px;
+    margin-top: 40px; 
+    width: 80%
+
+}
+}
+@media only screen and (min-width: 1230px) {
+
+   .img-info h3 {
+    padding: 20px 0px 0px;
+   
+   }
+  
+   .img-info header {
+    position: relative;
+    top: 10px;
+    font-size: 30px; 
+    
+    
+    }
+    .img-info p {
+      padding: 0px 30px 20px;
+      line-height: 24px; 
+      font-size: 16px;
+      margin-top: 10px;
+
+}
+.recent-projects .fig-visaexpress{
+  position: relative; 
+  right: 630px;  
+  
+}
+
+.recent-projects .fig-squares{
+  position: relative; 
+  right: 330px;  
+  top: -257px;
+}
+
+.recent-projects .fig-chair{
+  position: relative; 
+  right: 30px;  
+  top: -514px;
+}
+.coming-soon p {
+
+  font-size: 50px;
+  position: relative; 
+  left: 430px;  
+  top: -684px;
+
+}
+
+.portfolio-images .fig-squares img {
+
+  position: relative; 
+  left: -300px;  
+  top: 170px;
+
+
+}
+
+.portfolio-images .fig-chair img {
+
+  position: relative; 
+  left: -602px;  
+  top: 310px;
+
+}
+
+.portfolio-images .fig-squares figcaption {
+
+  position: relative; 
+  left: -300px;  
+  top: 180px;
+
+
+}
+
+.portfolio-images .fig-chair figcaption {
+
+  position: relative; 
+  left: -602px;  
+  top: 325px;
+
+}
+.portfolio-images .fig-visaexpress p {
+  padding-right: 100px;
+  padding-left: 270px;
+  position: relative; 
+  left: 700px;  
+  top: -180px;
+
+}
+.portfolio-images .fig-squares p {
+  padding-right: 100px;
+  padding-left: 270px;
+  position: relative; 
+  left: 400px;  
+  top: -20px;
+
+
+}
+
+.portfolio-images .fig-chair p {
+padding-right: 100px;
+padding-left: 270px; 
+  position: relative; 
+  left: 100px;  
+  top: 120px;
+
+}
+
+.contact-info {
+margin-top: 100px; 
+
+
+}
+
+.contact-info h3 {
+font-size: 30px; 
+  
+  
+  }
+
+.contact-info p {
+position: relative;
+left: -200px; 
+margin-top: 70px; 
+font-size: 20px;
+}
+  
+} 
+
